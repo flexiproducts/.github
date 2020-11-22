@@ -1,0 +1,14 @@
+{
+    "name": "Deploy Github Pages",
+    "description": "Builds application and published 'dist' to gh-pages",
+    "iconName": "github",
+    "categories": [
+        "JavaScript",
+        "TypeScript"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
